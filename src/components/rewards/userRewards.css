@@ -1,0 +1,11 @@
+
+.user-rewards-container {
+    padding: 20px;
+}
+
+.user-reward-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

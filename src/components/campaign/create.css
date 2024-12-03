@@ -1,0 +1,74 @@
+/* create.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .create-campaign-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .create-campaign-header {
+    text-align: center;
+    color: #3498db;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .create-campaign-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-campaign-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .create-campaign-form input,
+  .create-campaign-form textarea,
+  .create-campaign-form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .create-campaign-form input:focus,
+  .create-campaign-form textarea:focus,
+  .create-campaign-form select:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  .submit-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .response-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #27ae60;
+  }
+  

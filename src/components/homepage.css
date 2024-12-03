@@ -1,0 +1,46 @@
+/* Homepage Styling */
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.homepage-header {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.homepage-description {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.homepage-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.homepage-button {
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.homepage-button:hover {
+  background-color: #2980b9;
+}
